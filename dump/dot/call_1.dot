@@ -1,0 +1,37 @@
+digraph ListDump {
+    rankdir=TB;
+    node [shape=Mrecord, color=black, fontname="Courier"];
+
+    graph [splines=ortho]
+    overlap=false;
+    
+	node1 [label="{<VAL> VAL = 8.000000 | <ptr> ptr:0x60bb9ba51458 | {<left_node> left_node=0x60bb9ba51480 | <right_node> right_node=0x60bb9ba514a8 } }", color=black, style=filled, fillcolor=lime];
+	node2 [label="{<VAL> VAL = 4.000000 | <ptr> ptr:0x60bb9ba51480 | {<left_node> left_node=0x60bb9ba514d0 | <right_node> right_node=0x60bb9ba514f8 } }", color=black, style=filled, fillcolor=lime];
+	node6 [label="{<VAL> VAL = 2.000000 | <ptr> ptr:0x60bb9ba514d0 | {<left_node> left_node=(nil) | <right_node> right_node=0x60bb9ba51570 } }", color=black, style=filled, fillcolor=lime];
+	node14 [label="{<VAL> VAL = 3.000000 | <ptr> ptr:0x60bb9ba51570 | {<left_node> left_node=(nil) | <right_node> right_node=(nil) } }", color=black, style=filled, fillcolor=lime];
+	node8 [label="{<VAL> VAL = 6.000000 | <ptr> ptr:0x60bb9ba514f8 | {<left_node> left_node=0x60bb9ba51598 | <right_node> right_node=0x60bb9ba515c0 } }", color=black, style=filled, fillcolor=lime];
+	node16 [label="{<VAL> VAL = 5.000000 | <ptr> ptr:0x60bb9ba51598 | {<left_node> left_node=(nil) | <right_node> right_node=(nil) } }", color=black, style=filled, fillcolor=lime];
+	node18 [label="{<VAL> VAL = 7.000000 | <ptr> ptr:0x60bb9ba515c0 | {<left_node> left_node=(nil) | <right_node> right_node=(nil) } }", color=black, style=filled, fillcolor=lime];
+	node4 [label="{<VAL> VAL = 12.000000 | <ptr> ptr:0x60bb9ba514a8 | {<left_node> left_node=0x60bb9ba51520 | <right_node> right_node=0x60bb9ba51548 } }", color=black, style=filled, fillcolor=lime];
+	node10 [label="{<VAL> VAL = 10.000000 | <ptr> ptr:0x60bb9ba51520 | {<left_node> left_node=0x60bb9ba515e8 | <right_node> right_node=0x60bb9ba51610 } }", color=black, style=filled, fillcolor=lime];
+	node20 [label="{<VAL> VAL = 9.000000 | <ptr> ptr:0x60bb9ba515e8 | {<left_node> left_node=(nil) | <right_node> right_node=(nil) } }", color=black, style=filled, fillcolor=lime];
+	node22 [label="{<VAL> VAL = 11.000000 | <ptr> ptr:0x60bb9ba51610 | {<left_node> left_node=(nil) | <right_node> right_node=(nil) } }", color=black, style=filled, fillcolor=lime];
+	node12 [label="{<VAL> VAL = 14.000000 | <ptr> ptr:0x60bb9ba51548 | {<left_node> left_node=0x60bb9ba51638 | <right_node> right_node=0x60bb9ba51660 } }", color=black, style=filled, fillcolor=lime];
+	node24 [label="{<VAL> VAL = 13.000000 | <ptr> ptr:0x60bb9ba51638 | {<left_node> left_node=(nil) | <right_node> right_node=(nil) } }", color=black, style=filled, fillcolor=lime];
+	node26 [label="{<VAL> VAL = 15.000000 | <ptr> ptr:0x60bb9ba51660 | {<left_node> left_node=(nil) | <right_node> right_node=0x60bb9ba51688 } }", color=black, style=filled, fillcolor=lime];
+	node28 [label="{<VAL> VAL = 52.000000 | <ptr> ptr:0x60bb9ba51688 | {<left_node> left_node=(nil) | <right_node> right_node=(nil) } }", color=black, style=filled, fillcolor=lime];
+	node1 -> node2 [color=green];
+	node2 -> node6 [color=green];
+	node6 -> node14 [color=green];
+	node2 -> node8 [color=green];
+	node8 -> node16 [color=green];
+	node8 -> node18 [color=green];
+	node1 -> node4 [color=green];
+	node4 -> node10 [color=green];
+	node10 -> node20 [color=green];
+	node10 -> node22 [color=green];
+	node4 -> node12 [color=green];
+	node12 -> node24 [color=green];
+	node12 -> node26 [color=green];
+	node26 -> node28 [color=green];
+}
